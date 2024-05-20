@@ -1,0 +1,40 @@
+body {
+    background-color: wheat;
+    margin: 20px;
+    padding: 0;
+
+}
+body header{
+    font-style: italic;
+    padding: 20px 0;
+    background-color: aquamarine;
+}
+.flex-section, .grid-section, .responsive-design, .interactive-section {
+    margin-bottom: 40px;
+}
+.flex-container {
+    display: flex;
+    jus
+
+}
+.flex-item {
+    background-color: #38f551;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  .grid-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-section {
+      font-size: 16px;
+    }
+  }
